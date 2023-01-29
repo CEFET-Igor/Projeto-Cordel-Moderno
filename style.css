@@ -49,17 +49,31 @@ main{
     max-width: 800px;
     margin: auto;
 }
+
 main > section{
     padding: 10vh 5vw;
     line-height: 2em;
 }
+
 main > section.normal{
     background: white;
     color: black;
 }
+
+main > section.normal > p.estrofe{
+    padding: 0px 15px;
+}
+
 main > section.img{
-    background: blue;
+    background: black;
     color: white;
+}
+
+main > section.img > p.estrofe{
+    background-color: gray;
+    width: 300px;
+    color: white;
+    padding: 5px 15px;
 }
 
 /*********
