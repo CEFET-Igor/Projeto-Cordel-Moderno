@@ -71,7 +71,7 @@ main > section.img{
 
 main > section.img > p.estrofe{
     background-color: gray;
-    width: 300px;
+    max-width: 300px;
     color: white;
     padding: 5px 15px;
 }
@@ -102,7 +102,7 @@ a:hover{
     color: blue;
 }
 i{
-    height: 16px;
-    width: 16px;
+    max-height: 16px;
+    max-width: 16px;
     padding: 2px 5px;
 }
