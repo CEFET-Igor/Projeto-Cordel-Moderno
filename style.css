@@ -101,3 +101,8 @@ a:hover{
     text-decoration: underline;
     color: blue;
 }
+i{
+    height: 16px;
+    width: 16px;
+    padding: 2px 5px;
+}
