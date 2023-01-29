@@ -2,6 +2,7 @@
 
 /*IMPORTAÇÃO DE FONTES*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 
@@ -32,10 +33,11 @@ header > h1, h2 {
     color: white;
     font-family: var(--fonteDestaque);
 }
-main > div.Estrofe{
-    max-width: 800px;
-    margin: auto;
-}
-main > div.Estrofe > p{
-    background: yellow;
+
+footer{
+    padding: 5px 15px;
+    max-height: 99px;
+    background: black;
+    color: white;
+    font-family: var(--fontePadrao);
 }

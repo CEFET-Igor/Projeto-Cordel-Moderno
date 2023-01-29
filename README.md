@@ -3,4 +3,6 @@
  
  O Projeto Cordel Moderno propoe a utilização de fontes manuscritas 
  e imagens alinhadas com a tecnologia parallax para tornar agradavel
- a leitura do cordel de Milton Duarte. Veja o resultado
+ a leitura do cordel de Milton Duarte.
+<a href="https://cefet-igor.github.io/Projeto-Cordel-Moderno/">Veja aqui o resultado</a>
+
