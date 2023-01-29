@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-
+/*VARIAVEIS GLOBAIS*/
 :root{
 
     --fontePadrao: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -13,12 +13,19 @@
     --fonteDestaque: 'Sriracha', cursive;
 }
 
-*{
+*{/*CONFIGURAÇÕES GLOBAIS*/
     padding: 0px;
     margin: 0px;
-    font-family: var(--fonteDestaque);
-    font-style: none;
 }
+
+body, html{/*CORPO*/
+    background-color: lightgreen;
+    height: 100vh;
+}
+
+/************
+* CABEÇALHO *
+*************/
 
 header{
     display: flex;
@@ -34,10 +41,49 @@ header > h1, h2 {
     font-family: var(--fonteDestaque);
 }
 
+/********
+* CORPO *
+*********/
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
+main > section{
+    padding: 10vh 5vw;
+    line-height: 2em;
+}
+main > section.normal{
+    background: white;
+    color: black;
+}
+main > section.img{
+    background: blue;
+    color: white;
+}
+
+/*********
+* FOOTER *
+**********/
+
 footer{
     padding: 5px 15px;
     max-height: 99px;
     background: black;
     color: white;
     font-family: var(--fontePadrao);
+}
+
+/**************
+* FERRAMENTAS *
+***************/
+
+a{
+    color: rgba(255, 255, 255, 0.445);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
 }
