@@ -80,12 +80,26 @@ main > section.normal > p.estrofe{
 main > section.img{
     background: black;
     color: white;
+    box-shadow: inset 6px 4px 10px rgba(0, 0, 0, 0.664);
 }
 
 main > section.img > p.estrofe{
     display: inline-block;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 15px;
+}
+
+main > section#img01{
+    background: url('imagens/background001-1200.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main > section#img02{
+    background: url('imagens/background002-1200.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /*********
