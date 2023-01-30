@@ -94,7 +94,7 @@ main > section.img > p.estrofe{
 }
 
 main > section#img01{
-    background: url('imagens/background001-1200.jpg');
+    background: url('imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
