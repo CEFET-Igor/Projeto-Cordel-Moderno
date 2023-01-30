@@ -77,6 +77,10 @@ main > section.normal > p.estrofe{
     padding: 0px 15px;
 }
 
+main > section.normal > p.estrofe1{
+    padding: 0px 15px 40px 15px;
+}
+
 main > section.img{
     background: black;
     color: white;
